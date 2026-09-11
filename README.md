@@ -170,6 +170,7 @@ Interactive tools that answer common governance questions without a signup. Each
 
 ## Policy Engines and Authorisation
 
+- [amu-governance](https://github.com/sangaraju1988/amu-governance) - Lineage-gated access control library for AI-agent shared memory. Gates retrieval on the full column-level derivation of a cached result, not just content tags, to block cross-department leakage through legitimately-computed results. MIT license, `pip install amu-governance`. Author-submitted; accompanying paper published in IEEE Access (2026).
 - [AWS Verified Permissions](https://aws.amazon.com/verified-permissions/) - Managed Cedar policy service on AWS. Centralised policy storage with sub-millisecond evaluation latency for agent action authorisation.
 - [Casbin](https://www.casbin.org/) - Multi-model access control library supporting ACL, RBAC with hierarchy and domain, ABAC, and RESTful models in 10+ languages.
 - [Cedar Policy Language](https://www.cedarpolicy.com/) - AWS-designed authorisation language with formally verified semantics. Human-readable syntax built for per-request authorisation decisions at high throughput.
@@ -177,7 +178,6 @@ Interactive tools that answer common governance questions without a signup. Each
 - [HashiCorp Sentinel](https://www.hashicorp.com/sentinel) - Policy-as-code framework for Terraform, Vault, Consul, and Nomad. Useful for governing infrastructure provisioned by AI agents.
 - [OPA Rego Playground](https://play.openpolicyagent.org/) - Browser-based environment for writing and testing OPA/Rego policies without local setup.
 - [Ory Keto](https://github.com/ory/keto) - Open-source permission server implementing Google Zanzibar's relation-based access control model for fine-grained agent tool permissions.
-- [amu-governance](https://github.com/sangaraju1988/amu-governance) - Lineage-gated access control library for AI-agent shared memory. Gates retrieval on the full column-level derivation of a cached result, not just content tags, to block cross-department leakage through legitimately-computed results. MIT license, `pip install amu-governance`. Author-submitted; accompanying paper published in IEEE Access (2026).
 
 ---
 
